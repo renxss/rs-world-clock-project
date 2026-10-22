@@ -38,7 +38,8 @@ function updateTime(event) {
 
 function updateCity(event) {
     let cityTimeZone = event.target.value;
-    console.log(cityTimeZone);
+    let cityTime = moment().tz(cityTimeZone);
+    console.log(cityTime.format("MMMM Do YYYY, h:mm:ss A"));
     
 }
 
