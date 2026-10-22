@@ -31,7 +31,9 @@ function updateCity(event) {
         <div class="date"></div>
       </div>
       <div class="time"></div>
-    </div>`;
+    </div>
+    <a href="/">All cities</a>
+  `;
   updateCityTime(selectedCityElement.querySelector(".city"));
 }
 
