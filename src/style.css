@@ -18,6 +18,15 @@ body {
   justify-content: space-between;
 }
 
+h2 {
+  margin: 0;
+}
+
+.date {
+  opacity: 0.7;
+}
+  
+
 .time {
   font-size: 36px;
   font-weight: bold;
