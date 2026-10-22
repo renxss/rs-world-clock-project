@@ -15,8 +15,11 @@ function updateCity(event) {
   let selectedCityElement = document.querySelector("#selected-city");
   selectedCityElement.innerHTML = "";
 
-    if (!cityTimeZone === "current") {
-      cityTimeZone = moment.tz.guess();
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
+
+  if (!cityTimeZone) {
     return;
   }
 
