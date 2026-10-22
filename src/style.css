@@ -3,6 +3,26 @@ body {
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 24px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+
 
 .container {
   max-width: 600px;
@@ -27,10 +47,7 @@ body {
 
 }
 
-h2 {
-  margin: 0 0 5px;
-  font-size: 24px;
-}
+
 
 
 .date {
@@ -51,19 +68,6 @@ h2 {
   vertical-align: middle;
 }
 
-select {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-}
-
-h1 {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-}
 
 footer {
   text-align: center;
