@@ -26,12 +26,11 @@ select {
 
 .container {
   max-width: 600px;
-  margin: 60 auto;
+  margin: 60px auto;
   padding: 20px;
   background: white;
-  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
-
 }
 
 .city {
@@ -71,6 +70,6 @@ footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
 }
-
 
