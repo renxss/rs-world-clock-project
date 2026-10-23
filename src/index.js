@@ -1,6 +1,7 @@
 function updateCityTime(cityElement) {
   let cityTime = moment().tz(cityElement.dataset.timezone);
-  cityElement.querySelector(".date").innerHTML = cityTime.format("MMMM Do YYYY");
+  cityElement.querySelector(".date").innerHTML =
+    cityTime.format("MMMM Do YYYY");
   cityElement.querySelector(".time").innerHTML = cityTime.format(
     "h:mm:ss [<small>]A[</small>]",
   );
@@ -42,4 +43,3 @@ setInterval(updateTime, 1000);
 
 let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement.addEventListener("change", updateCity);
-  
